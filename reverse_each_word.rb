@@ -33,14 +33,15 @@ def reverse_each_word (string)
   #split the string into induvidual words
     string_split = string.split (" ")
   # collect every element into var words
-    string_split.collect do |words|
-      binding.pry
+  reversed = string_split.collect do |words|
+      #binding.pry
+      words.reverse
       #split the element 'words' into indiviual letters
-      letters = words.split ("")
+      #letters = words.split ("")
       #reverse the words with pop as long as there are letters
-      letters.size.times {reversed << letters.pop}
+      #letters.size.times {reversed << letters.pop}
   #join back together
-  reversed.join
-    end 
+  #reversed.join
+    end
     reversed
   end
