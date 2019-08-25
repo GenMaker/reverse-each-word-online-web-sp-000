@@ -41,7 +41,7 @@ def reverse_each_word (string)
       #reverse the words with pop as long as there are letters
       #letters.size.times {reversed << letters.pop}
   #join back together
-  #reversed.join
     end
+    reversed.join
     reversed
   end
