@@ -34,8 +34,8 @@ def reverse_each_word (string)
     string_split = string.split (" ")
   # collect every element into var words
   reversed = string_split.collect do |words|
-      #binding.pry
       words.reverse
+      binding.pry
       #split the element 'words' into indiviual letters
       #letters = words.split ("")
       #reverse the words with pop as long as there are letters
